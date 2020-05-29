@@ -1,0 +1,203 @@
+
+#geral { /* para o div geral do site */
+	background-color: #333333;
+	width: 1581px;
+	height: 1500px;
+	margin: -8px;
+	margin-left: -8px;
+	padding: 0px;
+	font-family: 'Carme'
+}
+.teste { /* Para testar o layout */
+	background-color: blue;
+}
+#rodape { /* para o rodape */
+	width: 100%;
+	margin: -1px;
+	padding-left: -150px;
+	background-color: #003d99;
+}
+.container { /* Basicamente o container que vai ter os coisos que vão ser as categorias e os itens*/
+	width: 100%;
+	height: 200px;
+	margin: auto;
+	padding: 1px;
+}
+.one { /* as categorias */
+	width: 15%;
+	height: 800px;
+	float: left;
+	background-color: #005fec;
+}
+.two { /* os itens */
+	margin-left: 15%;
+	height: 1200px;
+	width: 1200px;
+}
+/* ---------------------------------------- COISO USADOS NO RODAPE -------------------------------- */
+.adjust /* ajustar o iframe do rodapé*/ {
+	height: 225px;
+}
+#tbl { /* ID para a tabela com as configurações gerais */
+	font-family: 'Rubik';
+	font-size: 31px;
+	color: #ff9a17;
+}
+.ele { /* para dar o espaçamento dos elementos do coiso*/
+	padding-left: 60px;
+	padding-right: 60px;
+}
+#kim { /* para o kim ficar no cantinho*/
+	padding-left: 500px;
+	padding-right: 60px;
+}
+.ele:hover { /* para a corzinha muda quando o mouse passa em cima.*/
+	background-color: #003380;
+	color: #ffc06a;
+}
+select { /* formatação do select*/
+	font-size: 29px;
+	padding: 5px;
+	background-color: #003380;
+	color: white;
+	padding-left: 20px;
+	padding-right: 15px;
+}
+select:hover { /* para o seletor das coisas*/
+	background-color: #96b9ed;
+}
+/* ---------------------------------------- COISOS USADOS NAS CATEGORIAS -------------------------------- */
+#icatego { /* para ser usado no iframe das categorias.*/
+	background-color: #005fec;
+	height: 600px;
+}
+#catego { /* para ser usado no body das categorias*/
+	font-family:'Carme';
+	color: #ffaf37;
+	height: 100%;
+	width: 220px;
+
+}
+ul { /* para ajustar a lista*/
+	list-style-type:none;
+	padding-left: 5px;
+}
+.eleli { /* para os elementos da lista*/
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-size: 20px;
+	text-decoration: underline;
+}
+#ti { /* para o título das categorias */
+	padding-bottom: 20px;
+	color: #fd7e00;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-size: 20px;
+}
+.catelin {
+	color:#ed670f
+}
+.catelin:link, .itlin:visited {
+  color: black;
+  cursor: pointer;
+}
+.catelin:hover {
+	color:#ff802d;
+}
+.catelin:link:active, .itlin:visited:active {
+  color: red;
+}
+
+/* ---------------------------------------- COISOS USADOS NOS ITENS -------------------------------- */
+.tbi {/* coisos pra ajustar e dar aparência á tabela*/
+	background-color: #e5e5e5;
+}
+.iten {/* para os itens da tabela*/
+	padding-right: 100px;
+	padding-left: 100px;
+	padding-top: 30px;
+	font-family: 'Carme';
+}
+.iten:hover { /* efeitinho quando tive no item*/
+	background-color: grey;
+}
+/* ---------------------------------------- COISOS USADOS NA PÁGINA DOS ITENS -------------------------------- */
+.gerai {
+	background-color: #333333;
+	width: 100%;
+	height: 100%;
+	margin: -8px;
+	margin-left: -8px;
+	padding: 0px;
+	font-family: 'Carme'
+}
+#iname {/*para o nome do item mostrado.*/
+	background-color: #848484;
+	width: 600px;
+	height: 50px;
+	font-size: 35px;
+	margin-left: 320px;
+	margin-bottom: 200px;
+	margin-top: -280px;
+	padding-top: 10px;
+}
+#idesc {/* para a descrição do item*/
+	width: 50%;
+	height: 200px;
+	background-color: #999999;
+	margin-left: 320px;
+	margin-top: -200px;
+	font-size: 28px;
+	padding-left: 15px;
+}
+#ifunc {/* passos para fazer o item funcionar*/
+	width: 60%;
+	height: 200px;
+	margin-top: 30px;
+	margin-left: 20px;
+	margin-bottom: -100px;
+}
+#iimg {/* para a imagem do item */
+	margin-top: 10px;
+	margin-left: 20px;
+	width: 300px;
+}
+#ilist {/*característica da lista.*/
+	background-color: #bababa;
+}
+.itlin:link, .itlin:visited {
+  color: #b15e28;
+  cursor: pointer;
+}
+.itlin:hover {
+	color:#733d31;
+}
+.itlin:link:active, .itlin:visited:active {
+  color: red;
+}
+/* ---------------------------------------- COISOS USADOS NA PÁGINA DO INFO -------------------------------- */
+#dilogo { /*div da logo da empresa.*/
+	height: 230px;
+	width: 820px;
+	margin-left: 22%;
+	margin-top: 130px;
+	background-color: #999999;
+	padding-top: 50px;
+}
+#flop { /* div da descrição da Floop */
+	background-color: #999999;
+	width: 80%;
+	margin-top: 10px;
+	margin-left: 100px;
+	margin-bottom:0px;
+	padding: 10px;
+	font-size: 25px;
+	font-family: 'Carme';
+}
+#carb {/* Para o carb frost*/
+	margin-top: 15px;
+	margin-left: 35%;
+	background-color: #999999;
+	width: 400px;
+}

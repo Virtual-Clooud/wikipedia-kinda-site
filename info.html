@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+  <!DOCTYPE html>
+  <html>
+    <head>
+      <meta charset="utf-8">
+      <link rel = "stylesheet" type = "text/css" href = "css.css">
+      <link href='https://fonts.googleapis.com/css?family=Carme' rel='stylesheet'>
+      <title>info</title>
+    </head>
+    <body>
+    <!--um div global que vai compor o corpo inteiro da página -->
+  	<div id = "geral">
+  		<div id = "rodape">
+  			<table border = "0" id = "tbl"> <!-- A tabela com as coisa -->
+  				<tr>
+  					<td><!-- O coiso com a logo -->
+  						<image src = "Imagens/logo.png" alt = "logo do site">
+  					</td>
+  					<td class = "ele"><!-- O coiso com as categorias -->
+  						<label for="categorias">Categorias de itens:</label><br>
+  						<center><select onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value);" > <!-- Colocar uma <a> aqui para fazer os coisos selecionados direcionarem o usuário ás paginas indicadas -->
+  							<option> </option>
+  							<option value = "home.html"> ... </option>
+  							<option value = "Hite1.html"> Auto </option>
+  							<option value = "Hite2.html"> Criatura </option>
+  						</select></center>
+  					</td>
+  					<td class = "ele"><!-- O coiso com a página de info  tbm colocar um <a> para ser link-->
+  						<a class = "infolin" href = "info.html">Info</a>
+  					</td>
+  					<td id = "kim"><!-- O coiso pro Kim(uma imagem diferente de um carinha)  -->
+  					<image src ="Imagens/carbfrost.png" alt = "winston" height = "195">
+  					</td>
+  			</table>
+  		</div>
+      <div> <!-- Div que irá compor a página de info -->
+        <div id = "dilogo"> <!-- div para a logozinha do site -->
+          <center><image src = "Imagens/logoinfo.png" alt = "logo do site"></center>
+        </div>
+        <div id = "flop"> <!-- Div para a descrição da empresa -->
+          <center>Desde a era pré-neometalítica a floop sempre colaborou para o avanço em tecnologia e em coisas futuristas.
+          Fundada por investidores anõnimos ela foi a principal responsável pelas maiores pesquisas relacionadas ao Comercio(O primeiro tipo de metal nano-programável.)
+          e teve a simpatia de compartilhar as informações obitdas com todos os interessados no Comercio, este foi ponto em que a Floop entrou em sua fase de crescimento astronômico, literalmente.
+          Responsável pela primeira ponte-espacial conhecida como Sócarisplas que ajudou as super-potências á lançarem foguetes e sondas ao espaço em velocidades grandes o suficiente para chegarem á Lua-2 sem gastar combustível,
+          e assim iniciando a expansão espacial da raça humana, depois disso agora com recursos e influência suficiente a Floop foca todo o seu investimento em pesquisas em relação á manipulação do espaço-tempo usando um site como guia para
+          conseguirem voluntários para testarem se é possível viajar no tempo.</center>
+        </div>
+        <div id = "carb">
+          <center><img src = "Imagens/carbfrost.png"></center>
+        </div>
+        <div id = "flop"> <!-- Div para a descrição da empresa -->
+          <center>A floop tem a ajuda do Winston, um carangueijo engraçado que já fez vários favores para a empresa, no momento ele está ocupando o espaço onde ficaria uma barra de pesquisa pois a Floop já tem muitas coisas para se preocupar. :)</center>
+        </div>
+    </div>
+  </body>
+  </html>

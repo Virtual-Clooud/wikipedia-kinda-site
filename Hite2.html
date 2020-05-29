@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<!-- Objetivos
+copia a página inicial do mercado livre
+	coiso em cima com logo e botões que vão dar em outras(info, historinha etc)
+	na esquerda ter um rodapé com categorias de itens que vão dar em páginas desses respectivos itens
+	no meio uma lista com os itens onde se clica na imagem ou no nome vai lá á página desses respectivos itens.
+	site vai ter um estilo escuro com cores tema sendo azul, branco, preto.
+
+	!!!!!
+	Fazer um site daorinha e de fácil entendimento
+-->
+<html>
+<head>
+	<title>Mercado Eterno</title>
+	<link rel = "stylesheet" type = "text/css" href = "css.css">
+</head>
+<body>
+	<!--um div global que vai compor o corpo inteiro da página -->
+	<div id = "geral">
+		<div id = "rodape">
+			<table border = "0" id = "tbl"> <!-- A tabela com as coisa -->
+				<tr>
+					<td><!-- O coiso com a logo -->
+						<image src = "Imagens/logo.png" alt = "logo do site">
+					</td>
+					<td class = "ele"><!-- O coiso com as categorias -->
+						<label for="categorias">Categorias de itens:</label><br>
+						<center><select onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value);" > <!-- Colocar uma <a> aqui para fazer os coisos selecionados direcionarem o usuário ás paginas indicadas -->
+							<option>  </option>
+							<option value = "home.html"> ... </option>
+							<option value = "Hite1.html"> Auto </option>
+						</select></center>
+					</td>
+					<td class = "ele"><!-- O coiso com a página de info  tbm colocar um <a> para ser link-->
+					<a class = "infolin" href = "info.html">Info</a>
+					</td>
+					<td id = "kim"><!-- O coiso pro Kim(uma imagem diferente de um carinha)  -->
+						<image src ="Imagens/carbfrost.png" alt = "winston" height = "195">
+					</td>
+			</table>
+		</div><br>
+		<section class = "container"> <!-- lugar pros coiso fica -->
+			<div class = "one">
+				<ul style="">
+					<li id = "ti"><h1>Categorias</h1></li>
+					<li class ="eleli"> <a class = "catelin" href = "Hite1.html">Automóveis</a> </li>
+					<li class ="eleli"> <a class = "catelin" href = "Hite2.html">Criaturas</a> </li>
+				</ul>
+			</div>
+			<div class = "two"> <!-- Onde ficam as categorias -->
+				<iframe src = "ite2.html" style = "border:none;width: 100%; height:100%;"></iframe>
+			</div>
+		</section>
+	</div>
+</body>
+</html>
